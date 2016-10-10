@@ -13,9 +13,8 @@ Configuration RDSGWCapConfig
 
     RdsGwCap RDGCAPConfig
     { 
-		Name = 'RDG CAP all' # Alle device redirection toestaan
-		UserGroupNames = "AU_Shared_RDG CAP all"
-		PasswordAuthentication = $true
+		Name = 'RDG CAP all' # Policy name to accept all device redirection for this group
+		UserGroupNames = "AU_Shared_RDG CAP all" # Group name for which policy aplies
     }
 }
 
